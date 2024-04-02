@@ -58,7 +58,6 @@ bld/
 *.resx
 *.resources
 *.settings
-*.md
 *.mdx
 
 # Visual Studio 2022 SQL Server files
