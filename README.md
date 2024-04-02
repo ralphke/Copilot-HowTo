@@ -1,4 +1,4 @@
-# Copilot-Workshop
+# Copilot-HowTo Workshop
 This repro provides artifacts to learn all about (Azure) OpenAI Copilot
 
 ## Introduction – Where does GitHub Copilot come from?
