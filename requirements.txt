@@ -1,0 +1,7 @@
+# This is a Requirement file for the Copilot-Howto project.
+# Created by Ralph Kemperdick on 2-04-2024
+numpy
+response
+requests
+pillow
+python-dateutil
