@@ -1,0 +1,3 @@
+-- create a stored procedure to bulkload a json file, which is line terminated for each json object
+-- load the json file into a table which is to be created based on the structure of the json file objects metadata
+-- the json file is a list of json objects, each object is a row in the table
