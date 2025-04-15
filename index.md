@@ -60,3 +60,5 @@ Thanks to [Yuki Hattori](https://github.com/yuhattor) for sharing a lot of very 
 
 * [Source](https://github.com/yuhattor/copilot-doc/patterns)
 * [Author](https://github.com/yuhattor)
+
+* [Ralph in a Box](./image/Create%20an%20image%20of%20a%203D%20cartoon-style%20action%20figure%20of%20a%20man%20named%20Ralph%20Kemperdick,%20displayed%20insid.jpeg) ![Ralph in a Box](./image/Create%20an%20image%20of%20a%203D%20cartoon-style%20action%20figure%20of%20a%20man%20named%20Ralph%20Kemperdick,%20displayed%20insid.jpeg)
