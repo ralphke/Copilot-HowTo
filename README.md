@@ -2,7 +2,7 @@
 
 <img src="./image/Smart_Guy.jpeg" alt="Smart Guy" width="25%">
 
-This repro provides artifacts to learn all about (Azure) OpenAI Copilot
+This repro provides artifacts to learn all about GitHub Copilot
 
 ## Introduction – Where does GitHub Copilot come from?
 
