@@ -17,15 +17,25 @@ GitHub Copilot provides developers with a set of **keyboard shortcuts** to accel
 
 For example, to accept a suggestion from Copilot, you can simply press the `TAB` key. Here's a list of some key shortcuts:
 
+##### Common keyboard shortcuts in Visual Studio IDE (Code | 2022)
+
 - Accept suggestion: `TAB` key
 - Reject suggestion: `Esc` key
-- Show combined suggestions: `Ctrl` + `Enter` key
-- Accept at word level: `Ctrl` + `Right Arrow` key
+- Trigger inline suggestion: `Alt` + `/` key
 - See next suggestion: `Alt` + `]` key
 - See previous suggestion: `Alt` + `[` key
-- Trigger inline suggestion: `Alt` + `/` key
+
+##### Visual Studio Code
+
+- Show combined suggestions: `Ctrl` + `Enter` key
+- Accept at word level: `Ctrl` + `Right Arrow` key
 - Show Labs feature list: `Ctrl` + `Shift` + `Alt` + `e` key
-- Toggle sidebar: `Ctrl` + `Shift+a` key
+- Toggle sidebar: `Ctrl` + `Shift` + `a` key
+
+##### Visual Studio 2022
+
+- Open Copilot Panel: `Ctrl` + `Alt` + `\`  key
+- Toggle Copilot: `Ctrl` + `Alt` + `C`  key
 
 ### Exercise
 

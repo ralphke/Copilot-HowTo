@@ -1,17 +1,18 @@
 * About
+
   * [Introduction](./README.md)
 
  * Getting started using
     * [Visual Studio Code](./doc/VS-Code.md)
     * [Visual Studio 2022](./doc/Visual-Studio-2022.md)
-    * [Resources](./doc/Resources.md)
+    * [Resources](./doc/Resources.md)In. 
 
 
-* doc/promptsing
+* Prompting
   * [Code completion](./doc/prompts/code-completion.md)
   * [Comment to code](./doc/prompts/comment-to-code.md)
   * [Code to comment](./doc/prompts/code-to-comment.md)
-  * [Comment to SQL](./doc/prompts/SQL-Server%20doc/prompts.sql)
+  * [Comment to SQL](./doc/prompts/SQL-Server%20Prompt.md)
   * [Quick Q&A](./doc/prompts/quick-qna.md)
   * [Regular expression](./doc/prompts/regular-expression.md)
   * [Language translation](./doc/prompts/language-translation.md)
@@ -19,6 +20,7 @@
   * [Code to document](./doc/prompts/code-to-document.md)
   * [Object generation from structured data](./doc/prompts/object-generation-from-structured-data.md)
   * [Showing examples](./doc/prompts/showing-examples.md)
+  * [Best practices](./doc/prompts/best-practices.md)
 
 * Client 
   * [Copilot snippet handling](./doc/client/copilot-snippet-handling.md)
@@ -26,7 +28,7 @@
   * [Go to definition](./doc/client/go-to-definition.md)
   * [Pin the files you need](./doc/client/pin-the-file-you-need.md)
 
-* doc/patterns
+* Patterns
   * [AI readable naming convention](./doc/patterns/ai-readable-naming-convention.md)
   * [Consistent coding style](./doc/patterns/consistent-coding-style.md)
   * [High-level architecture first](./doc/patterns/high-level-architecture-first.md)
@@ -49,6 +51,10 @@
   * [Writing test code before refactoring](./doc/refactoring/writing-test-code-before-refactoring.md)
   * [Making the calculation part independent](./doc/refactoring/making-the-calculation-part-independent.md)
   * [Asking with open-ended questions](./doc/refactoring/asking-with-open-ended-questions.md)
+  - [Legacy Cobol](./source/Cobol/Legacy_Cobol.cob)
+
+* Settings
+  * [Advanced Copilot Settings](./doc/settings.md)
 
 Thanks to [Yuki Hattori](https://github.com/yuhattor) for sharing a lot of very good content how to work with GitHub Copilot in real life! 
 

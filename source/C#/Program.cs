@@ -6,7 +6,7 @@ internal class Program
     {
         var result = ProcessArguments(args);
         Console.WriteLine(result);
-        Console.WriteLine("Enter Date in the Forma YYYY-MM-dd here:");
+        Console.WriteLine("Enter Date in the Format YYYY-MM-dd here:");
         var date = Console.ReadLine();
         if (string.IsNullOrEmpty(date) || date.Length != 10 || date.Contains('-') == false)
         {
@@ -20,15 +20,17 @@ internal class Program
             int year = int.Parse(dateArray[0]);
             int month = int.Parse(dateArray[1]);
             int day = int.Parse(dateArray[2]);
+
+            // Validate if the entered date is a valid date
+            // add a composite string format here
+
             int days = Copilot_C_.DateCalculations.DaysInMonth(month, year, day);
-            // add a composit string format here
             Console.WriteLine($"Days in Month: {days}");
         }
         catch (FormatException)
         {
-            Console.WriteLine("Input is a valid date format");
+            Console.WriteLine("Input is not a valid date format");
         }
-
     }
 
     // This method can be tested independently

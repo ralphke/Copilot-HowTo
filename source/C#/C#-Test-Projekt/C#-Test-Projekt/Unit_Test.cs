@@ -1,8 +1,20 @@
 ﻿using NUnit.Framework;
 
 [TestFixture]
-public class ProgramTests
+public class Tests
 {
+
+    [SetUp]
+    public void Setup()
+    {
+    }
+
+    [Test]
+    public void Test1()
+    {
+        Assert.Pass();
+    }
+
     [Test]
     public void TestNoArgs()
     {
@@ -18,4 +30,5 @@ public class ProgramTests
         string result = Program.ProcessArguments(args);
         Assert.That("Arguments passed were: arg1, arg2", Is.EqualTo(result));
     }
+
 }

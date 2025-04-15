@@ -1,3 +1,4 @@
+using Copilot_C_;
 using NUnit.Framework;
 
 [TestFixture]
@@ -16,7 +17,7 @@ public class DateCalculationsTests
         int actual = DateCalculations.DaysInMonth(month, year, day);
 
         // Assert
-        Assert.AreEqual(expected, actual);
+        Assert.That(actual, Is.EqualTo(expected));
     }
 
     [Test]
@@ -32,7 +33,7 @@ public class DateCalculationsTests
         int actual = DateCalculations.DaysInMonth(month, year, day);
 
         // Assert
-        Assert.AreEqual(expected, actual);
+        Assert.That(actual, Is.EqualTo(expected));
     }
 
     [Test]
@@ -48,7 +49,7 @@ public class DateCalculationsTests
         int actual = DateCalculations.DaysInYear(year, month, day);
 
         // Assert
-        Assert.AreEqual(expected, actual);
+        Assert.That(actual, Is.EqualTo(expected));
     }
 
     [Test]
@@ -64,6 +65,6 @@ public class DateCalculationsTests
         int actual = DateCalculations.DaysInYear(year, month, day);
 
         // Assert
-        Assert.AreEqual(expected, actual);
+        Assert.That(actual, Is.EqualTo(expected));
     }
 }

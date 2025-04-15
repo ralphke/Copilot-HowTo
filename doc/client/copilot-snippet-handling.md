@@ -9,14 +9,14 @@ aliases:
 
 ## Copilot Snippet Handling
 
-> While this is accurate as of August 2023, the situation may change as GitHub Copilot and the LLM behind it evolve. Always try to get the most up-to-date information from GitHub.
+> While this is currently accurate, the situation may change as GitHub Copilot and the LLM behind it evolve. Always try to get the most up-to-date information from GitHub.
 GitHub Copilot typically uses around **10 to 15** lines of context to generate a meaningful response. This allows it to understand the context and provide relevant code suggestions or explanations. 
 
 ### Description
 
-GitHub Copilot, which utilizes OpenAI's Large Language Models (LLM) to generate code, has a limitation on the number of tokens it can process. As of 2023, it doesn't see all of the code that's open in the editor and doesn't receive every token. This means that users must carefully limit the context provided to GitHub Copilot. Notably, Copilot doesn't have access to external repositories or source code placed in GitHub Enterprise Cloud.
+GitHub Copilot, which utilizes OpenAI's Large Language Models (LLM) to generate code, has a limitation on the number of tokens it can process. Currently it doesn't see all of the code that's open in the editor and doesn't receive every token. This means that users must carefully limit the context provided to GitHub Copilot. Notably, Copilot doesn't have access to external repositories or source code placed in GitHub Enterprise Cloud.
 
-The files that GitHub Copilot uses for suggestions are primarily the currently open file and other tab files adjacent to it (basically with the same file extension). To make accurate suggestions, it's essential to have only the relevant files open. The following is a checklist as of August 2023. The types of files that GitHub Copilot includes as snippets may change in the future, but practices such as "closing unnecessary files" will likely have a positive impact on your coding even if you were not using GitHub Copilot.
+The files that GitHub Copilot uses for suggestions are primarily the currently open file and other tab files adjacent to it (basically with the same file extension). To make accurate suggestions, it's essential to have only the relevant files open. The following is a checklist: The types of files that GitHub Copilot includes as snippets may change in the future, but practices such as "closing unnecessary files" will likely have a positive impact on your coding even if you were not using GitHub Copilot.
 
 - **Open the files you need to refer to**
 - **Close unnecessary files**
