@@ -6,6 +6,10 @@ Here's a breakdown of the strengths and weaknesses of LLMs commonly used in AI-p
 
 ## **Strengths and Weaknesses of LLMs**
 
+### ** Latest and greates model now is GPT-4.1
+
+[GPT-4.1 been anounced on 16.04.2025](https://azure.microsoft.com/en-us/blog/announcing-the-gpt-4-1-model-series-for-azure-ai-foundry-developers/)
+
 ### **1. OpenAI Codex (used by GitHub Copilot)**
 
 - **Strengths**:
